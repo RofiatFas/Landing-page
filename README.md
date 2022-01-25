@@ -9,4 +9,4 @@ This is the link of the landing page [ https://rofiatfas.github.io/Landing-page/
 Built with;
 1. HTML5
 2. CSS
-3. SCSS
+3. JAVASCRIPT
