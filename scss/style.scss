@@ -314,8 +314,8 @@ img{
     }
 }
 
-/*========== MENU ==========*/
-.menu{
+/*========== PRODUCTS ==========*/
+.products{
     &__container{
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
@@ -358,8 +358,8 @@ img{
     }
 }
 
-/*========== APP ==========*/
-.app{
+/*==========SATISFACTION ==========*/
+.satisfaction{
     &__data{
         text-align: center;
     }
