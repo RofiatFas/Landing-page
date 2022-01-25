@@ -330,13 +330,13 @@ img{
   padding: 0 1.5rem;
 }
 
-/*========== MENU ==========*/
-.menu__container{
+/*========== PRODUCTS ==========*/
+.products__container{
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
 }
 
-.menu__content{
+.products__content{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -346,30 +346,29 @@ img{
   padding: .75rem;
 }
 
-.menu__img{
+.products__img{
   width: 100px;
   align-self: center;
   margin-bottom: var(--mb-2);
 }
 
-.menu__name, .menu__preci{
+.products__name,.products__price{
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
-
-.menu__name{
+.products__name{
   font-size: var(--normal-font-size);
 }
 
-.menu__detail, .menu__preci{
+.products__detail, .products{
   font-size: var(--small-font-size);
 }
 
-.menu__detail{
+.products__detail{
   margin-bottom: var(--mb-1);
 }
 
-.menu__button{
+.products__button{
   position: absolute;
   bottom: 0;
   right: 0;
@@ -378,25 +377,25 @@ img{
   border-radius: .5rem 0 .5rem 0;
 }
 
-/*========== APP ==========*/
-.app__data{
+/*========== SATISFACTION ==========*/
+.satisfaction__data{
   text-align: center;
 }
 
-.app__description{
+.satisfaction__description{
   margin-bottom: var(--mb-5);
 }
 
-.app__stores{
+.satisfaction__stores{
   margin-bottom: var(--mb-4);
 }
 
-.app__store{
+.satisfaction__store{
   width: 120px;
   margin: 0 var(--mb-1);
 }
 
-.app__img{
+.satisfaction__img{
   width: 230px;
   justify-self: center;
 }
